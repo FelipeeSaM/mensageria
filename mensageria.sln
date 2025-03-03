@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mensageria", "mensageria.csproj", "{1326DFB2-0D12-43FC-9AC0-B3AD0CA50CAE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQClient.console", "RabbitMQClient.console.csproj", "{1326DFB2-0D12-43FC-9AC0-B3AD0CA50CAE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RabbitMQClient", "RabbitMQClient", "{3A003228-2325-4329-B0A6-FBBB4F44C93B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Compartilhado", "Compartilhado", "{9B44BF54-3B86-453B-80E0-22E2A130EECD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,6 +22,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1326DFB2-0D12-43FC-9AC0-B3AD0CA50CAE} = {3A003228-2325-4329-B0A6-FBBB4F44C93B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BF0C04FD-33F0-4F94-B217-305BF41B8023}
