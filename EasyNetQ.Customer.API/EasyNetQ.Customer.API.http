@@ -1,0 +1,10 @@
+﻿@EasyNetQ.Customer.API_HostAddress = https://localhost:7056
+
+POST {{EasyNetQ.Customer.API_HostAddress}}/api/custumers
+Content-Type: application/json
+
+{
+  //CustomerInputModel
+}
+
+###

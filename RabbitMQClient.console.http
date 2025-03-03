@@ -1,0 +1,20 @@
+﻿@RabbitMQClient.console_HostAddress = 
+
+POST {{RabbitMQClient.console_HostAddress}}/api/custumers
+Content-Type: application/json
+
+{
+
+}
+
+###
+
+POST {{RabbitMQClient.console_HostAddress}}/api/custumers
+Content-Type: application/json
+
+{
+   "id": 1,
+  "name": "joão"
+}
+
+###

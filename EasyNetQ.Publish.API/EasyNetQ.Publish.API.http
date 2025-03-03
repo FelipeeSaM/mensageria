@@ -1,0 +1,6 @@
+@EasyNetQ.Publish.API_HostAddress = http://localhost:5262
+
+GET {{EasyNetQ.Publish.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
