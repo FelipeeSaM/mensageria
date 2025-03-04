@@ -14,3 +14,12 @@ Content-Type: application/json
 }
 
 ###
+
+POST {{EasyNetQ.Publish.API_HostAddress}}/api/publish
+Content-Type: application/json
+
+{
+  //PublishModel
+}
+
+###

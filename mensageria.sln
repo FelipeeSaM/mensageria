@@ -7,7 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EasyNetQ.Console", "..\Easy
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EasyNetQPS", "EasyNetQPS", "{521A4863-E6A7-4546-8CFF-975503AF70FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyNetQ.Publish.API", "EasyNetQ.Publish.API\EasyNetQ.Publish.API.csproj", "{E4FC326C-B83E-479D-B5D6-4EAE0D5A9515}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EasyNetQ.Publish.API", "EasyNetQ.Publish.API\EasyNetQ.Publish.API.csproj", "{E4FC326C-B83E-479D-B5D6-4EAE0D5A9515}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyNetQ.Subscribe.API", "EasyNetQ.Subscribe.API\EasyNetQ.Subscribe.API.csproj", "{D0316465-6352-4082-A87D-A91FB6111728}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Compartilhado", "Compartilhado", "{810AE115-2455-4860-9023-8936E60B241C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessagingEvents.Shared", "MessagingEvents.Shared\MessagingEvents.Shared.csproj", "{108BDAE8-119B-4EEC-BC5A-C02D41636AF1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +29,14 @@ Global
 		{E4FC326C-B83E-479D-B5D6-4EAE0D5A9515}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E4FC326C-B83E-479D-B5D6-4EAE0D5A9515}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E4FC326C-B83E-479D-B5D6-4EAE0D5A9515}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0316465-6352-4082-A87D-A91FB6111728}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0316465-6352-4082-A87D-A91FB6111728}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0316465-6352-4082-A87D-A91FB6111728}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0316465-6352-4082-A87D-A91FB6111728}.Release|Any CPU.Build.0 = Release|Any CPU
+		{108BDAE8-119B-4EEC-BC5A-C02D41636AF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{108BDAE8-119B-4EEC-BC5A-C02D41636AF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{108BDAE8-119B-4EEC-BC5A-C02D41636AF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{108BDAE8-119B-4EEC-BC5A-C02D41636AF1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +44,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{91A91244-CC98-4377-9EAC-AA4A89D28B13} = {521A4863-E6A7-4546-8CFF-975503AF70FA}
 		{E4FC326C-B83E-479D-B5D6-4EAE0D5A9515} = {521A4863-E6A7-4546-8CFF-975503AF70FA}
+		{D0316465-6352-4082-A87D-A91FB6111728} = {521A4863-E6A7-4546-8CFF-975503AF70FA}
+		{108BDAE8-119B-4EEC-BC5A-C02D41636AF1} = {810AE115-2455-4860-9023-8936E60B241C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BF0C04FD-33F0-4F94-B217-305BF41B8023}
