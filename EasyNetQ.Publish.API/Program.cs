@@ -1,3 +1,5 @@
+using EasyNetQ.Publish.API.Bus;
+
 namespace EasyNetQ.Publish.API
 {
     public class Program
@@ -5,8 +7,12 @@ namespace EasyNetQ.Publish.API
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+            var bus = RabbitHutch.CreateBus("host=localhost");
 
             // Add services to the container.
+            builder.Services.AddScoped<IBusService, EasyNetQService>(
+                c => new EasyNetQService(bus)
+            );
 
             builder.Services.AddControllers();
 
